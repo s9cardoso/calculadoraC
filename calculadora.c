@@ -4,6 +4,17 @@
 void soma()
 { 
     //todo
+	float num1, num2, sum;
+	sum = num1 + num2;
+
+	printf("Digite o primeiro numero: ");
+	scanf("%f", &num1);
+
+	printf("Digite o segundo numero: ");
+	scanf("%f", &num2);
+
+	printf("%.2f + %.2f = %.2f\n", num1, num2, sum);
+
     system ("pause"); 
     system("cls"); 
     menu(); 
